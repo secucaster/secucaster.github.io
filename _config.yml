@@ -1,0 +1,28 @@
+title: SecuCaster
+description: SecuCaster Blog
+author: Choi Myung Jae
+logo: /static/img/avatar.jpg
+github: https://github.com/secucaster
+about: SecuCaster Testing Blog
+
+baseurl: ""
+url: ""
+
+allowsearch: true
+
+disqus_shortname: secucaster
+google_analytics: UA-119955195-1
+
+share:
+  twitter_username: \#
+  fb_appid: 000000000000
+
+
+enableTags: true
+tagarray: []
+
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
+markdown: kramdown
+gems: [jekyll-paginate, jekyll-gist]
