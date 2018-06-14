@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<article class="post">
+
+  <div class="post-content">
+    {{ content }}
+
+    <div class="study row">
+    {% include project_tags.html %}
+    {% for i in site.data.study %}
+    <div class="study-item col-md-4 col-sm-6 col-xs-12" data-tags='{{ i.tags | jsonify | downcase }}'>
+    	<div class="well study-outer">
+    		<div class="study-inner">
+    			<a href="/static/study/{{ i.image }}" class="thickbox">
+    			<div class="study-img bordered" style="background-image: url('/static/study/{{ i.image }}');"></div>
+                </a>
+                {% if i.url %} <a href="{{ i.url }}"> {% endif %}
+    			<h3 class="study-headlines">{{ i.name }}</h3>
+    			{% if i.url %} </a> {% endif %}
+    			<div class="study-content">
+    				<div class="tag-holder">
+    				{% if i.tags %}
+    					{% for j in i.tags %}
+    					<span class="label tags tag-filter" data-tag="{{ j | downcase }}">{{ j }}</span>
+    					{% endfor %}
+    				{% endif %}
+    				</div>
+
+    			</div>
+    			<div class="study-footer">
+    				{% if i.url %}
+    				<a href="{{ i.url }}" class="btn btn-info btn-raised btn-sm study-link">View</a>
+    				{% endif %}
+    				<span class="study-timeline">{{ i.date }}</span>
+    			</div>
+    		</div>
+    	</div>
+        </div>
+    {% endfor %}
+    </div>
+  </div>
+
+</article>

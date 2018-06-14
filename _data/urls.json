@@ -11,6 +11,11 @@
     "icon": "fa-comments"
   },
   {
+    "text": "Study",
+    "url": "/study",
+    "icon": "fa-desktop"
+  },
+  {
     "text": "Projects",
     "url": "/projects",
     "icon": "fa-desktop"
