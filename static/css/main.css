@@ -171,7 +171,8 @@ footer {
     padding-bottom: 10px;
 }
 .pager li.active a {
-    background: rgba(89, 148, 129, 0.3);
+    /*background: rgba(89, 148, 129, 0.3);*/
+    background: #85B8CB
 }
 /** Search input **/
 .searchcontrol {
