@@ -1,12 +1,12 @@
 title: SecuCaster
 description: SecuCaster Blog
-author: Choi Myung Jae
+author: SecuCaster
 logo: /static/img/avatar.jpg
 github: https://github.com/secucaster
-about: SecuCaster Testing Blog
+about: SecuCaster@gmail.com
 
-baseurl: ""
-url: ""
+baseurl: "https://secuops.dev/"
+url: "https://secuops.dev/"
 
 allowsearch: true
 
