@@ -1,6 +1,6 @@
 .main.outer{padding-top: 50px;}
 .header-panel.shadow-z-2 {
-    background-color: #2a74e2;
+    background-color: #f0f8ff;
     padding: 50px 0 15px 0;
     width: 100%;
 }
@@ -55,7 +55,7 @@ p.info a {
     text-align: center;
     line-height: 20px;
     font-size: 20px;
-    color: #2a74e2;
+    color: #f0f8ff;
     padding: 5px;
     width: 30px;
     height: 30px;
@@ -96,7 +96,7 @@ li.current-menu-item:before {
     font-size: 26px;
     margin-bottom: 32px;
     margin-top: 5px;
-    color: #01c87b;
+    color: #f0f8ff;
     font-weight: 300;
 }
 h2.blog-title-pro{color: #fff;}
