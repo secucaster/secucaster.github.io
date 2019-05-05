@@ -5,8 +5,8 @@ logo: /static/img/avatar.jpg
 github: https://github.com/secucaster
 about: SecuCaster@gmail.com
 
-baseurl: "https://secuops.dev/"
-url: "https://secuops.dev/"
+baseurl: "https://secuops.dev"
+url: "https://secuops.dev"
 
 allowsearch: true
 
