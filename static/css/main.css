@@ -71,7 +71,7 @@ p.info a {
 }
 
 .menu ul li a:hover, .menu ul li a:focus, li.current-menu-item > a{
-    background: #85B8CB;
+    background: rgb(133, 184, 203);
 }
 li.current-menu-item:before {
     content: "";
@@ -81,7 +81,7 @@ li.current-menu-item:before {
     position: absolute;
     left: 9px;
     vertical-align: middle;
-    background: #B8CA28;
+    background: rgb(0, 59, 253);
 }
 .menu ul li a {
     font-size: 15px;
