@@ -1,9 +1,9 @@
-title: SecuCaster
-description: SecuCaster Blog
-author: SecuCaster
+title: 보안운영개발
+description: Blog...?
+author: ChoiMyungJae
 logo: /static/img/avatar.jpg
-github: https://github.com/secucaster
-about: SecuCaster@gmail.com
+github: https://github.com/secuops
+about: audwo407@gmail.com
 
 baseurl: "https://secuops.dev"
 url: "https://secuops.dev"
