@@ -1,9 +1,6 @@
-## SecuCaster Blog
-
-github page blog 입니다.
+github page 입니다.
 
 ### Blog URL
-* https://secucaster.github.io/
 * http://secuops.dev
 
 #### Update
